@@ -15,13 +15,21 @@ using System.Windows.Shapes;
 namespace Snake
 {
     /// <summary>
-    /// Lógica de interacción para ErrorApodo.xaml
+    /// Controlador para la vista ErrorApodo,
     /// </summary>
     public partial class ErrorApodo : Window
     {
         public ErrorApodo()
         {
             InitializeComponent();
+        }
+
+        /// <summary>
+        /// Este método controla el evento del boton bttnAceptar.
+        /// </summary>
+        private void onClick(object sender, RoutedEventArgs e)
+        {
+            errorApodo.Close();
         }
     }
 }

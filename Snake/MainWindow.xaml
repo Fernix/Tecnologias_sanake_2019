@@ -7,9 +7,9 @@
         mc:Ignorable="d"
         Title="Snake" Height="450" Width="800">
     <Grid>
-        <TextBox x:Name="tfApodo" HorizontalAlignment="Left" Height="23" Margin="279,180,0,0" TextWrapping="Wrap" Text="Apodo" VerticalAlignment="Top" Width="208" TextChanged="TextBox_TextChanged"/>
-        <Button x:Name="bttnBuscar" Content="Jugar" HorizontalAlignment="Left" Margin="335,222,0,0" VerticalAlignment="Top" Width="75"/>
+        
+        <TextBox x:Name="tfApodo" HorizontalAlignment="Left" TextAlignment="Center" MaxLength="12" Height="23" Margin="279,180,0,0" TextWrapping="Wrap" Text="Apodo" VerticalAlignment="Top" Width="208"/>
+        <Button x:Name="bttnBuscar" Click="onClick" Content="Jugar" HorizontalAlignment="Left" Margin="335,222,0,0" VerticalAlignment="Top" Width="75"/>
         <Label x:Name="lApodo" Content="Ingrese un apodo: " HorizontalAlignment="Left" Margin="320,139,0,0" VerticalAlignment="Top"/>
-
     </Grid>
 </Window>
